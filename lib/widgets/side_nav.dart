@@ -19,8 +19,11 @@ class SideNavMain extends StatelessWidget {
                     image: AssetImage('assets/images/swatch.png'))),
           ),
           ListTile(
-            title: Text('Social Links'),
-          ),
+              title: Text('Social Links'),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/social_links');
+              }),
           ListTile(
             title: Text('Exam Answers'),
           ),
