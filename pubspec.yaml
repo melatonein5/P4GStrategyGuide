@@ -1,5 +1,5 @@
-name: p4g_stratergy_guide
-description: A new Flutter project.
+name: p4g_strategy_guide
+description: A Persona 4 Golden Stratery Guide
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -88,3 +88,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: MinervaModernBold
+      fonts:
+        - asset: assets/MinervaModernBold.ttf
