@@ -1,16 +1,13 @@
 # p4g_stratergy_guide
 
-A new Flutter project.
+This strategy guide will provide players with a comprehensive overview of Persona 4. The guide will cover everything from the game's story and characters to its combat system and social interaction mechanics. The guide will also provide players with tips and strategies on how to complete the game and achieve the best possible ending.
 
-## Getting Started
+Whether you are a new player to Persona 4 or a seasoned veteran, this strategy guide will help you to get the most out of the game.
 
-This project is a starting point for a Flutter application.
+Here are some of the topics that will be covered in the guide:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The game's story and characters
+The combat system
+The social interaction mechanics
+Tips and strategies on how to complete the game and achieve the best possible ending
+The guide will also include a walkthrough of the game, as well as a complete list of items, Personas, and enemies.
