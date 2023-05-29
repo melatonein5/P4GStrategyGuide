@@ -7,7 +7,7 @@ class SocialLinks extends StatelessWidget {
         appBar: AppBar(
           title: Text('Social Links'),
         ),
-        body: SelectionArea(
+        body: SingleChildScrollView(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -18,7 +18,7 @@ class SocialLinks extends StatelessWidget {
             Table(
               border: TableBorder.all(),
               columnWidths: const <int, TableColumnWidth>{
-                0: FixedColumnWidth(160),
+                0: FlexColumnWidth(),
                 1: FlexColumnWidth()
               },
               defaultVerticalAlignment: TableCellVerticalAlignment.middle,
@@ -28,8 +28,9 @@ class SocialLinks extends StatelessWidget {
                     'assets/images/npc_sprites/marie.png',
                     fit: BoxFit.fitHeight,
                   ),
-                  TableCell(child: Text('Marie (Aeon)'))
-                ])
+                ]),
+                TableRow(
+                    children: <Widget>[TableCell(child: Text('Marie (Aeon)'))])
               ],
             )
           ],
