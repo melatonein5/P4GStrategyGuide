@@ -1,4 +1,4 @@
-# p4g_stratergy_guide
+# p4g_strategy_guide
 
 This strategy guide will provide players with a comprehensive overview of Persona 4. The guide will cover everything from the game's story and characters to its combat system and social interaction mechanics. The guide will also provide players with tips and strategies on how to complete the game and achieve the best possible ending.
 
