@@ -48,15 +48,6 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
   final String title;
 
   @override
@@ -64,37 +55,21 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
-        // TRY THIS: Try changing the color here to a specific color (to
-        // Colors.amber, perhaps?) and trigger a hot reload to see the AppBar
-        // change color while the other colors stay the same.
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+          title: Text(widget.title)),
+      body: const Center(
+          child: SelectionArea(
+              child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text(
+              "This strategy guide will provide players with a comprehensive* overview of Persona 4. The guide will cover everything from the game's story and characters to its combat system and social interaction mechanics. The guide will also provide players with tips and strategies on how to complete the game and achieve the best possible ending.\n\nWhether you are a new player to Persona 4 or a seasoned veteran, this strategy guide will help you to get the most out of the game.\n\nHere are some of the topics that will be covered in the guide:\n\n - The game's story and characters\n - The combat system\n - The social interaction mechanics\n - Tips and strategies on how to complete the game and achieve the best possible ending\n\n The guide will also include a walkthrough of the game, as well as a complete list of items, Personas, and enemies.\n\nTo get started, hit the menu button at the top of your screen...\n\n *Please note: this application is a passion project. Feel free to contact me through the application store you used to download this application for any knowledge in the guide as well as many mistakes. But I am one person. Please be kind."),
+        ],
+      ))),
       // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
