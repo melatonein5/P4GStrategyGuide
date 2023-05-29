@@ -28,9 +28,25 @@ class SocialLinks extends StatelessWidget {
                     'assets/images/npc_sprites/marie.png',
                     fit: BoxFit.fitHeight,
                   ),
+                  Image.asset(
+                    'assets/images/npc_sprites/chie.png',
+                    fit: BoxFit.fitHeight,
+                  ),
+                  Image.asset(
+                    'assets/images/npc_sprites/hisano.png',
+                    fit: BoxFit.fitHeight,
+                  ),
+                  Image.asset(
+                    'assets/images/npc_sprites/uehara.png',
+                    fit: BoxFit.fitHeight,
+                  ),
                 ]),
-                TableRow(
-                    children: <Widget>[TableCell(child: Text('Marie (Aeon)'))])
+                TableRow(children: <Widget>[
+                  Text('Marie (Aeon)'),
+                  Text('Chie (Chariot)'),
+                  Text('Hisano Kuroda (Death)'),
+                  Text('Uehara Sayoko (Devil)')
+                ])
               ],
             )
           ],
