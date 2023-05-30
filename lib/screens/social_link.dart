@@ -9,6 +9,7 @@ class SocialLink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final imageName = 'assets/images/npc_sprites/' + this.name + '.png';
+
     return Scaffold(
         appBar: AppBar(
           title: Text('Social Link'),
@@ -24,12 +25,13 @@ class SocialLink extends StatelessWidget {
                 ),
                 Text(
                   nameFull + " Social Link Guide",
-                  style: TextStyle(fontSize: 200.0),
+                  style: TextStyle(fontSize: 150.0),
                 )
               ])),
           Divider(
             color: Colors.white,
-          )
+          ),
+          //Text(pageContent)
         ])));
   }
 }
