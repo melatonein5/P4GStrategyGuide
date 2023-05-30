@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:p4g_strategy_guide/screens/social_link.dart';
 import 'package:p4g_strategy_guide/widgets/side_nav.dart';
 import 'package:p4g_strategy_guide/screens/social_links.dart';
 
@@ -43,7 +44,10 @@ class MyApp extends StatelessWidget {
       ),
       home: const MyHomePage(title: 'Persona 4 Golden Strategy Guide'),
       initialRoute: '/',
-      routes: {'/social_links': (context) => SocialLinks()},
+      routes: {
+        '/social_links': (context) => SocialLinks(),
+        '/social_links/marie': (context) => SocialLink('marie', "Marie")
+      },
     );
   }
 }

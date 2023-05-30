@@ -24,10 +24,14 @@ class SocialLinks extends StatelessWidget {
               defaultVerticalAlignment: TableCellVerticalAlignment.middle,
               children: <TableRow>[
                 TableRow(children: <Widget>[
-                  Image.asset(
-                    'assets/images/npc_sprites/marie.png',
-                    fit: BoxFit.fitHeight,
-                  ),
+                  GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/social_links/marie');
+                      },
+                      child: Image.asset(
+                        'assets/images/npc_sprites/marie.png',
+                        fit: BoxFit.fitHeight,
+                      )),
                   Image.asset(
                     'assets/images/npc_sprites/chie.png',
                     fit: BoxFit.fitHeight,
